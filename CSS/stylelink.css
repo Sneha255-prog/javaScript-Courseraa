@@ -1,0 +1,35 @@
+body{
+  /*  background-image: url("C:/Users/Joyel/Desktop/WebDev/Images/switz.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: #b2b2b2  url("C:/Users/Joyel/Desktop/WebDev/Images/switz.jpg") center no-repeat;
+}
+
+
+a{
+    background-color: #d87093;
+    color: #000000;
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ffb6c1;
+    color: #ffffff;
+}
+
+a:focus{
+    background-color: #ffb6c1;
+    color: #ffffff;
+
+}
+
+a:active{
+    border: 3px solid #000000;
+}

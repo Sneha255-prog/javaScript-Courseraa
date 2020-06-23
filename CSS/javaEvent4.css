@@ -1,0 +1,18 @@
+button{
+    background-color: lightcoral;
+    color: maroon;
+    width: 120px;
+    font-size: 140%;
+}
+
+p{
+    border: 2px groove lawngreen;
+    text-align: center;
+    padding: 5px;
+}
+
+#stuff{
+    background-color: lemonchiffon;
+    color: lightslategrey;
+    text-align: center;
+}

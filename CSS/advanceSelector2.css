@@ -1,0 +1,12 @@
+body{
+    margin: 5%;
+    background-color: #e9967a;
+}
+
+#mainlogo{
+    border: 10px groove #000000;
+}
+
+.thumb{
+    border: 10px groove #800080;
+}

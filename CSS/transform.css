@@ -1,0 +1,45 @@
+div{
+    box-sizing: border-box;
+    border: 2px groove #000000;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 3%;
+    padding: 2%;
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+}
+
+div:focus{
+    background-color: #ffff00;
+}
+
+div:hover{
+    width: 200px;
+    background-color: #800040;
+}
+
+.animate{
+    background-color: #92b901;
+    -webkit-border-radius:5px;
+    -webkit-transition-property: width,height,-moz-transform,opacity,background;
+    -webkit-transition-duration: 1s,1s,1s,1s,1s;
+    -o-transition-property:width,height,-o-transform,opacity,background; 
+    -o-transition-duration: 1s,1s,1s,1s,1s;
+    -moz-transition-property:width,height,-moz-transform,opacity,background; 
+    -moz-transition-duration: 1s,1s,1s,1s,1s;
+    transition-property: width,height,opacity,transform,background;
+    transition-duration: 1s,1s,1s,1s,1s;
+    opacity: 0.4;
+}
+
+.animate:hover{
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    width:110px;
+    background: #1ec7e6;
+    height: 67px;
+    opacity: 1;
+}

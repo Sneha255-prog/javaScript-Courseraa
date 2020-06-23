@@ -1,0 +1,20 @@
+div{
+    position: relative;
+    border:5px solid black;
+    height: 300px;
+    width: 400px;
+}
+
+p{
+    border: 1px solid palevioletred;
+    width: 50%;
+    position: relative;    /*do static,fixed,absolute,etc*/
+    top: 100px;
+    left: 100px;
+
+
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

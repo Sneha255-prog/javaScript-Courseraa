@@ -1,0 +1,28 @@
+body{
+    background-color: lightsteelblue;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+button{
+    width: 150px;
+    font-size: 120%;
+    padding: 5px;
+    background-color:lavenderblush;
+    color: palevioletred;
+    border: 1px groove black;
+}
+
+#demo{
+    background-color:lightblue;
+    color: purple;
+    border: 1px groove black;
+    padding: 10px;
+    font-size: 120%;
+}

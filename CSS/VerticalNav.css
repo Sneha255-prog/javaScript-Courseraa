@@ -1,0 +1,37 @@
+body{
+    background: #ffdfe5;
+    margin: 1%;
+    padding: 1%;
+}
+
+nav{
+    box-sizing:border-box;
+    border: 2px groove #06425c;
+    display: inline-block;
+    background: #d87093;
+    width: 10%;
+    height: 100vh;
+   /* margin-right: 15px;*/
+   /*min-width:125px;*/
+    float: left;
+    overflow: auto;
+}
+
+nav a{
+    color: #191970;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 50px;
+    margin:10px 0 10px 5px;
+    background: url("C:/Users/Joyel/Desktop/WebDev/Images/arrow1.png");
+}
+
+section{
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
+    float: right;
+}

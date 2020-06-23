@@ -1,0 +1,20 @@
+span{
+    color: #ff1413;
+    background-color: #000000;
+    height: 50px;
+    width: 75px;
+}
+
+div{
+    color: #ff00ff;
+    background-color: #3ab222;
+    height: 100px;
+    width: 45%;
+}
+
+p{
+    color: #669966;
+    background-color: #ff1493;
+    height: 200px;
+    width: 100px;
+}

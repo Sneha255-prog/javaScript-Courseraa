@@ -1,0 +1,92 @@
+table.cal{     /*set the table olor,border,spacing....*/
+    color: #06425c;
+    border: 3px groove black;
+    -webkit-border-radius:0 0 25px 25px;
+    border-radius:0 0 25px 25px ;
+    border-spacing: 0;
+}
+
+tr:nth-child(odd){  /*to set colors between even and odd*/
+    background: #808080;
+    background: -webkit-linear-gradient(#808080 0%,#d87093 100%);
+    background: -moz-linear-gradient(#808080 0%,#d87093 100%);
+    background: -o-linear-gradient(#808080 0%,#d87093 100%);
+    background: linear-gradient(#808080 0%,#d87093 100%);
+}
+
+tr:nth-child(even){
+    background: #808080;
+    background: -webkit-linear-gradient(#808080 0%,#20b2aa 100%);
+    background: -moz-linear-gradient(#808080 0%,#20b2aa 100%);
+    background: -o-linear-gradient(#808080 0%,#20b2aa 100%);
+    background: linear-gradient(#808080 0%,#20b2aa 100%);
+}
+
+/*tr:last-child{
+    -webkit-border-radius:25px 25px 0 0;
+    border-radius:0 0 25px 25px;
+}*/
+
+tr:last-child>td:first-child{   /*to curve the bottom*/
+    -webkit-border-radius:0 0 0 25px;
+    border-radius:0 0 0 25px;
+}
+
+tr:last-child>td:last-child{
+    -webkit-border-radius:0 0 25px 0;
+    border-radius:0 0 25px 0;
+}
+
+.cal caption{   /*Format for caption*/
+    font-variant: small-caps;
+    background: #808080;
+    color: #000000;
+    -webkit-border-radius:25px 25px 0 0;
+    border-radius: 25px 25px 0 0;
+    font-size: 200%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cal th, .cal td{   /*format common headings and elements attributes*/
+    margin: 5px;
+    padding-bottom: 9px;
+    border: 1px groove black ;
+}
+
+.cal th{       /*format table headings*/
+    text-align: center;
+    background: #d3d3d3;
+}
+
+.cal td{   /*set the size and alignment for elements*/
+    width: 80px;
+    height: 80px;
+    vertical-align: top;
+}
+
+.holiday{
+    background:#e96178;
+}
+
+.old{
+   color: rgba(0,0,0,.25);
+  /*background: url("http://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;*/
+}
+
+span{
+    display: block;
+    text-align: center;
+    visibility: hidden;
+}
+
+td:active>span{
+    visibility: visible;
+}
+
+
+
+
+
+
+
