@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form example</title>
+</head>
+<body>
+    <form>
+        <fieldset>   <!--to draw a border line-->
+        <legend>Input Types</legend>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name"><br/>
+
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" placeholder="Snehadixon@gmail.com"><br/>
+
+           <label>Password:<input type="password" name="pass" required></label><br/>  <!--both the way you can write-->
+
+           Gender<br/>
+           <label><input type="radio" name="sex" value="male">Male</label><br/>
+           <label> <input type="radio" name="sex" value="female">Female </label><br/>
+
+           How to contact<br/>
+           <label><input type="checkbox" name="contact1">Contact me via mail</label><br/>
+           <label><input type="checkbox" name="contact2">Contact me via phone</label><br/>
+
+           <label>Number:<input type="number" name="number" min="1" max="10"></label><br/>
+
+           <label for="range">Range:</label>
+           <input type="range" name="range" min="1" max="6"><br/>
+
+           <label for="color">Color:</label>
+           <input type="color" name="colorInput" min="1" max="9"><br/>
+
+           <label>Date:<input type="date" name="dateInput"></label><br/>
+
+           <label>URL:<input type="url" name="URLInput"></label><br/>
+
+           <input type="submit" value="Click here!"><br/>
+
+
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

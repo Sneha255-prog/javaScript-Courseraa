@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This example</title>
+    <script src="C:/Users/Joyel/Desktop/WebDev/JS/this.js"></script>
+</head>
+<body> <!--not external that means without fuunction-->
+    <img src="C:/Users/Joyel/Desktop/WebDev/Images/switz.jpg"  
+          alt="Switz pic"
+          width="25%"
+          onclick="console.log(this.alt)">
+
+    <div onclick="console.log(this.innerHTML)">Hii There,checking out a div</div>
+    <hr>
+
+    <!--using external javascript-->
+    <img src="C:/Users/Joyel/Desktop/WebDev/Images/switz.jpg"
+         alt="Switzerland"
+         width="25%"
+         id="ID-1"
+         onclick="displayId(this)">
+
+    <div onclick="displayId(this)"
+         id="ID-2">
+        another div</div>
+</body>
+</html>

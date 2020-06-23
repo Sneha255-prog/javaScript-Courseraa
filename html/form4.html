@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>examples of comparison on forms</title>
+    <script src="C:/Users/Joyel/Desktop/WebDev/JS/form4.js"></script>
+</head>
+<body>
+     <!-- <form>
+          <fieldset>
+              <label>Email:<input type="email" name="email1" id="email_addr" required></label></br>
+              <label>Email:<input type="email" name="email2" id="email_repeat" required onchange="check()"></label></br>
+              <input type="submit" value="confirm email">
+          </fieldset>
+      </form>
+    -->
+
+    <!--above method is also crct but the thing is that if we type email wrong for the first time it will give alert
+    but after that it will get submit but if we return value even if type wrong email number of times it will give 
+    alert msg thus return value-->
+
+      <form>
+        <fieldset>
+            <label>Email:<input type="email" name="email1" id="email_addr" required></label></br>
+            <label>Email:<input type="email" name="email2" id="email_repeat" required onchange="return check()"></label></br>
+            <input type="submit" value="confirm email" onclick="return check()">
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

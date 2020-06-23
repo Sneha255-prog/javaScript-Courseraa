@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifing the DOM</title>
+    <link rel="stylesheet"
+        href="C:/Users/Joyel/Desktop/WebDev/CSS/javaEvent4.css">
+</head>
+<body>
+    <h1>MODIFY THE DOM</h1>
+    <button type="button"
+        onclick="document.getElementById('stuff').innerHTML='Clicked first button';">First</button>
+
+    <button type="button"
+            onclick="document.getElementById('stuff').innerHTML='Clicked second button';">Second</button>
+
+    <p>This code should not change</p>
+    <p id="stuff">This will change</p>
+    <p>This shouldn't change</p>
+</body>
+</html>
